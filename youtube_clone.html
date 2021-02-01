@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c5c0dcfda8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/youtube_clone.css">
+  <title>YouTube</title>
+  <script defer src="javascript/youtube_clone.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video Player -->
+  <section class="video_player">
+    <video controls src="video/snow_video.mp4"></video>
+  </section>
+
+  <!-- Info And Up Next -->
+  <div class="infoAndUpNext">
+    <!-- Video Information -->
+    <section class="video_info">
+      <!-- MetaData -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#YouTube</li>
+          <li>#Front-End</li>
+          <li>#Junior</li>
+        </ul>
+        <div class="titleAndBtn">
+          <span class="title clamp">
+            클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">100M views 1 month ago</span>
+      </div>
+      <!-- Action Button -->
+      <ul class="actionBtn">
+        <li>
+          <button> <i class="fas fa-thumbs-up active"></i> <span>50M</span> </button>
+        </li>
+        <li>
+          <button> <i class="fas fa-thumbs-down"></i> <span>0</span> </button>
+        </li>
+        <li>
+          <button> <i class="fas fa-share"></i> <span>Share</span> </button>
+        </li>
+        <li>
+          <button> <i class="fas fa-plus"></i> <span>Plus</span> </button>
+        </li>
+        <li>
+          <button> <i class="fab fa-font-awesome-flag"></i> <span>Report</span> </button>
+        </li>
+      </ul>
+      <!-- Channel -->
+      <div class="channel">
+        <div class="channel_data">
+          <img src="image/avatar.jpg" alt="채널사진">
+          <div class="channel_info">
+            <span class="name">Leenawon</span>
+            <div class="subscribers">1M subscribers</div>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+  <!-- Next Video -->
+    <section class="upNext">
+      <span class="title">Up Next</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img src="image/Thumbnail.jpg" alt="">
+          </div>          
+          <div class="upNext_info">
+            <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+            <div class="name">Leenawon</div>
+            <div class="views">50K views</div>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/Thumbnail.jpg" alt="">
+          </div>
+          <div class="upNext_info">
+            <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+            <div class="name">Leenawon</div>
+            <div class="views">50K views</div>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/Thumbnail.jpg" alt="">
+          </div>
+          <div class="upNext_info">
+            <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+            <div class="name">Leenawon</div>
+            <div class="views">50K views</div>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
